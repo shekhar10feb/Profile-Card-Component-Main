@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+main {
+    width: 100%;
+    min-height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid red;
+}
+
+main header {
+    width: 90%;
+    min-height: 60vh;
+    border: 2px solid red;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+}
